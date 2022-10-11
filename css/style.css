@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+
+width: 90%;
+
+margin: auto;
+
+overflow: hidden;
+
+margin-top: 30px;
+
+margin-bottom: 30px;
+}
+.logo{
+
+width: 20%;
+
+float: left;
+}
+.logo img{
+
+}
+.menu{
+
+width: 50%;
+
+float: right;
+}
+.menu ul{
+
+list-style: none;
+
+float: right;
+}
+.menu ul li{
+
+float: left;
+
+margin-left: 30px;
+}
+.menu ul li a{
+    
+color: #626262;
+    
+text-decoration: none;
+    
+text-transform: uppercase;
+}
+.banner{
+width: 90%;
+margin: auto;
+}
+.banner img{   
+width: 100%;
+}
+.photodiary{
+
+width: 80%;
+
+margin: 70px auto;
+}
+.photodiary h5{
+
+color: #b4ad9e;
+
+text-transform: uppercase;
+
+margin-bottom: 20px;
+}
+.photodiary h1{
+
+color: #626262;
+
+font-size: 35px;
+
+margin-bottom: 20px;
+}
+.photodiary p{
+
+color: #626262;
+
+font-size: 16px;
+
+margin-bottom: 20px;
+}
+.photodiary a{
+    
+color: #b4ad9e;
+    
+text-transform: uppercase;
+    
+text-decoration: none;
+    
+font-size: 16px;
+    
+font-weight: 700;
+}
+.lifestyle{
+
+width: 80%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+
+flex-wrap: wrap;
+}
+.item{
+
+width: 47%;
+
+margin-bottom: 50px;
+}
+.item img{
+
+width: 100%;
+}
+.item a{
+
+color: #b4ad9e;
+
+text-transform: uppercase;
+
+margin-bottom: 20px;
+
+text-decoration: none;
+
+margin: 10px 0;
+
+display: block;
+}
+.item h1{
+
+color: #626262;
+
+font-size: 28px;
+
+margin: 20px 0;
+
+/* margin-bottom: 20px; */
+}
+.item p{
+    
+color: #626262;
+    
+font-size: 16px;
+    
+margin-bottom: 20px;
+}
+.signup{
+
+background-color: #f0f0f0;
+
+height: 300px;
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+margin-bottom: 100px;
+}
+.signup_content{
+
+width: 316px;
+}
+.signup_content h1{
+
+color: #626262;
+
+font-size: 28px;
+
+margin: 20px 0;
+
+margin-bottom: 70px;
+}
+.signup_content input{
+    
+border: none;
+    
+background: none;
+    
+border-bottom: 1px solid;
+    
+width: 100%;
+padding: 5px 0 5px 5px ;
+font-size: 15px;
+}
+.signup_content input:focus{
+    outline: none;
+}
+.button{
+
+height: 300px;
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+}
+.button button{
+    
+padding: 20px 30px;
+    
+background: transparent;
+    
+border: none;
+    
+border: 1px solid #000;
+    
+font-size: 18px;
+}
+
+footer{
+
+background: #f0f0f0;
+
+padding: 30px 0;
+}
+.footer_wrapper{
+
+width: 80%;
+
+margin: auto;
+
+/* overflow: hidden; */
+
+display: flex;
+
+justify-content: space-between;
+}
+.terms{
+
+width: 30%;
+
+/* float: left; */
+}
+.terms ul{
+    
+list-style: none;
+    
+display: flex;
+}
+.terms ul li{
+    
+margin-right: 7px;
+    
+/* text-transform: capitalize; */
+}
+.terms ul li a{
+    
+text-decoration: none;
+    
+color: black;
+}
+.social_icon{
+
+width: 38%;
+
+/* float: right; */
+}
+.social_icon ul{
+
+list-style: none;
+
+display: flex;
+
+justify-content: end;
+}
+.social_icon ul li{
+
+}
+.social_icon ul li a{
+    
+text-decoration: none;
+    
+margin-left: 10px;
+    
+color: black;
+    
+text-transform: capitalize;
+}
